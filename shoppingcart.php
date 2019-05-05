@@ -8,14 +8,13 @@
     <script type="text/javascript">
 
     function checkout(){
-      var x = document.getElementById("test");
+      var x = document.getElementById("checkout");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
         x.style.display = "none";
       }
 }
-      }
     </script>
 
   </head>
@@ -23,6 +22,7 @@
     <div class="container">
       <div class="menu">
         <ul>
+          <li><a href="menu.php">Home</a></li>
           <li>My Cart</li>
           <li ><button onclick="checkout()">Checkout</button></li>
         </ul>
@@ -66,7 +66,10 @@
           <h3>Cart Contents</h3>
 
           <table>
-            <th>Item</th><th>Cost</th><th>Quantity</th><th>Total</th>
+            <tr>
+              <th>Item</th><th>Cost</th><th>Quantity</th><th>Total</th>
+            </tr>
+
           </table>
 
         </div>

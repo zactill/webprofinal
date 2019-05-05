@@ -9,22 +9,25 @@
 <body>
   <div class="container">
   <div class ="form">
-    <form action="process.php" method="POST">
+    <form action="menu.php" method="POST">
 
     <p>
       <label>Username:</label>
-      <input type = "text" id = "user" name = "user" />
+      <input type = "text" id = "user" name = "user" required>
     </p>
     <p>
       <label>Password: </label>
-      <input type = "password" id = "pass" name = "pass" />
+      <input type = "password" id = "pass" name = "pass" required>
     </p>
     <p>
-      <input type ="submit" id = "btn" value= "Login" />
+      <input type ="submit" id = "btn" value= "Login">
     </p>
-    </form>
-    </div>
 
+    </form>
+
+      <p>New User? Register <a href="register.php">here</a></p>
+
+    </div>
 
   </div>
 
