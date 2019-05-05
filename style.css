@@ -50,6 +50,11 @@ img{
   width: 185px;
 }
 
+.confirmed img{
+  height: 300px;
+  width: 180px;
+}
+
 .menu{
 
 }
@@ -87,6 +92,7 @@ img{
 }
 
 .orderform{
+  padding:20px;
 
 }
 
