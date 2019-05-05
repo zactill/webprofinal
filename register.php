@@ -12,7 +12,7 @@
     <div class="container">
       <div class="menu">
       <h2>New User Registration</h2>
-      
+
       <form class="signup" action="menu.php" method="post">
         <label for="first">First Name:</label>
         <input type="text" name="" value="" required>
@@ -49,6 +49,9 @@
         <input type ="submit" id = "btn" value= "Login" />
       </form>
       <div>
+
+        <h3>Already registered? Login <a href="login.php">here</a><h3>
+
     </div>
 
   </body>

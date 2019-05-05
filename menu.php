@@ -12,9 +12,7 @@
           <li><a href="menu.php">Home</a></li>
           <li><a href="profile.php">Profile</a></li>
           <li><a href="shoppingcart.php">Cart</a></li>
-          <form class="" action="login.php" method="post">
-            <li><button>Logout</button></li>
-          </form>
+          <li><a href="login.php">Logout</a></li>
 
         </ul>
 
@@ -22,6 +20,7 @@
         <h2>Car Reservation Select</h2>
         <h3>Car Pickup</h3>
         <h3>Car Drop Off</h3>
+        <h4><a href="inventory.php">Check Current Inventory</a><h4>
 
         <form class="" action="shoppingcart.php" method="post">
         <table>
@@ -38,10 +37,10 @@
             <td><img src="/images/luxury.png"></td>
           </tr>
           <tr>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
+            <td><input type="radio" id="suv" name="cars" required></td>
+            <td><input type="radio" id="suv" name="cars"></td>
+            <td><input type="radio" id="suv" name="cars"></td>
+            <td><input type="radio" id="suv" name="cars"></td>
           </tr>
           <tr>
             <td><input type="submit" value="Add to Cart"></td>

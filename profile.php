@@ -11,7 +11,7 @@
         <ul>
           <li><a href="menu.php">Home</a></li>
           <li><a href="shoppingcart.php">Cart</a></li>
-          <li><button>Logout</button></li>
+          <li><a href="login.php">Logout</a></li>
         </ul>
         <h4>Name:</h4>
         <h4>Username:</h4>
