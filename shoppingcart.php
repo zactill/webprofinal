@@ -59,7 +59,7 @@
           <label for="cvv">CVV:</label>
           <input type="text" name="" value="" required>
             <br>
-          <input type ="submit" id = "btn" value= "Place Order" />
+          <input type ="submit" id = "btn" value= "Reserve Car" />
         </form>
 
         <div class="cart">
